@@ -1,0 +1,279 @@
+
+
+.body {
+  margin: 0px;
+  background: #23252C;
+  justify-content: center;
+  justify-items: center;
+  width: 400px;
+}
+
+.picture {
+border-radius: 10px 10px 0px 0px;
+  display: block;
+  width:400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto
+
+}
+.head-info {
+    box-sizing: content-box;
+    border: 10px solid white;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.email > a:link, a:visited {
+    text-decoration: none;
+    background-color:#1A1B21;
+    color: #374151
+
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    color: #fff
+  }
+
+
+.logo {
+    display: block;
+    width: 40%;
+    height: 40%;  
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.head-info{
+     box-sizing: content-box;
+
+}
+
+.head-info > h1, h6 {
+    box-sizing: content-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+  
+}
+
+.head-info > h1 {
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 60px;
+color:#fff;
+ 
+}
+
+.head-info > h6 {
+ display: block;
+ margin-top: -2em;
+ margin-bottom: 0.83em;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: bisque;
+     
+}
+  .main {
+    
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #DCDCDC;
+    width: 400px;
+    margin: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    background: #1A1B21;
+}
+
+.main--title > h1 {
+    width: 150px;
+    height: 25.81px;
+    left: 186px;
+    top: 382px;
+    margin-left:auto;
+    margin-right:auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.main--title > h3 {
+    width: 150px;
+    height: 14.19px;
+    left: 186px;
+    top: 414px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+
+.main--title{
+    padding-top: 10px;
+    display:block;
+    width: 135px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin: 26px;
+
+}
+.buttons > button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    width: 150px;
+    height: 40px;
+    margin:10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border:none;
+    border-radius: 6px;
+}
+
+
+
+.linkedin {
+    background: #297FE5;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.about-card {
+    display: block;
+    margin: 0;
+    margin-top: 0.5em;
+    margin-bottom:20px;
+    padding-left:40px;
+    margin-left:0;
+    margin-right:auto;
+    width:320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+    
+    
+}
+
+.interest-card {
+    display: block;
+    margin: 0;
+    margin-bottom:20px;
+    padding-left:40px;
+    margin-left:0;
+    margin-right:auto;
+    width:320px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+    padding-bottom: 20px;
+}
+
+
+.main-h2 {
+    margin-bottom: 0;
+}
+
+.main-body {
+    margin-top: 0;
+}
+
+.about >h3 {
+    margin:10px;
+    margin-bottom:1px;
+    padding-left:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.footer {
+    position:relative;
+    display: block;
+    height: 45px;
+    width: 390px;
+    text-align: center;
+    color:#23252C;
+    padding: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -30px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.images
+ {
+  padding-top: 10x;
+  padding-bottom: 10x;
+  padding-right:34px;
+
+  width: 25px;
+  height: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.linkedin-icon {
+    height: 13.33px ;
+    width: 13.33px
+}
+
+.email-icon {
+    height: 13.33px ;
+    width: 13.33px
+}
+
+
+
+
